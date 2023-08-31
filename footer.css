@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    background-color: tomato;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh; /*after 100vh content comes at bottom*/
+}
+
+footer section{
+    width: 80%;
+    background-color: white; /*we use % not px bcoz width should be adapting*/
+    display: flex;
+    justify-content: space-between; /*for horizontal content - justify content
+                                        vertical content - align items*/
+    padding: 0px 40px 40px 40px;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 400;
+
+}
+
+a:hover{
+    color: blue;
+    font-weight: 700px;
+    background-color: darkgoldenrod;
+
+    
+}
+
+
+
+
+
+
+
